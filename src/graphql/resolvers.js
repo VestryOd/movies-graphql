@@ -1,11 +1,7 @@
-const maksym = {
-  name: "Maksym",
-  age: 40,
-  gender: "male"
-}
+import { getMovies } from "./storage";
 
 export const resolvers = {
   Query: {
-    person: () => maksym
+    movies: () => getMovies(),
   }
 }
