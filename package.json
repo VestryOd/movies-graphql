@@ -22,5 +22,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "graphql-yoga": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
